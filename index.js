@@ -7,15 +7,6 @@ class ServerlessPluginWebpack {
   constructor (serverless, options) {
     this.serverless = serverless
     this.options = options
-
-    this.commands = {
-      deploy: {
-        lifecycleEvents: [
-          'initialize'
-        ]
-      }
-    }
-
     this.hooks = {
       'before:deploy:initialize': this.bundle.bind(this)
     }
