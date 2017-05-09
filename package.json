@@ -1,6 +1,6 @@
 {
   "name": "@8select/serverless-plugin-webpack",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Serverless plugin to bundle deployment packages with webpack",
   "keywords": [
     "8select",

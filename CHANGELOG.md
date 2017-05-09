@@ -1,5 +1,12 @@
 # Change Log
 
+## [0.1.2](https://github.com/8select/serverless-plugin-webpack/tree/0.1.2) (2017-05-09)
+[Full Changelog](https://github.com/8select/serverless-plugin-webpack/compare/0.1.1...0.1.2)
+
+**Merged pull requests:**
+
+- add org scope [\#5](https://github.com/8select/serverless-plugin-webpack/pull/5) ([akleiber](https://github.com/akleiber))
+
 ## [0.1.1](https://github.com/8select/serverless-plugin-webpack/tree/0.1.1) (2017-05-09)
 **Merged pull requests:**
 
