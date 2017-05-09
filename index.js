@@ -29,11 +29,11 @@ class ServerlessPluginWebpack {
         console.log('[webpack:build]', stringStats)
 
         if (jsonStats.errors.length > 0) {
-          reject('webpack failed')
+          reject('webpack build failed')
         }
 
         if(jsonStats.warnings.length > 0) {
-          reject('webpack failed')
+          reject('webpack build failed')
         }
 
         resolve()
