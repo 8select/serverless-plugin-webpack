@@ -20,6 +20,22 @@ class ServerlessPluginWebpack {
         if (error) {
           reject(error)
         }
+
+        let jsonStats = stats.toJson()
+        let stringStats = stats.toString({
+          chunks: false,
+          colors: true
+        })
+        console.log('[webpack:build]', stringStats)
+
+        if (jsonStats.errors.length > 0) {
+          reject('webpack build failed')
+        }
+
+        if(jsonStats.warnings.length > 0) {
+          reject('webpack build failed')
+        }
+
         resolve()
       })
     })
