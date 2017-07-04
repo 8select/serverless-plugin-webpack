@@ -7,6 +7,8 @@ class ServerlessPluginWebpack {
   constructor (serverless, options) {
     this.serverless = serverless
     this.options = options
+    process.env.webpack_stage = options.webpack_stage || 'dev'
+
     this.hooks = {
       'before:deploy:initialize': this.bundle.bind(this)
     }
