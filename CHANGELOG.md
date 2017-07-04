@@ -1,5 +1,12 @@
 # Change Log
 
+## [0.2.0](https://github.com/8select/serverless-plugin-webpack/tree/0.2.0) (2017-07-04)
+[Full Changelog](https://github.com/8select/serverless-plugin-webpack/compare/0.1.2...0.2.0)
+
+**Merged pull requests:**
+
+- use webpack\_stage option as environment variable [\#7](https://github.com/8select/serverless-plugin-webpack/pull/7) ([akleiber](https://github.com/akleiber))
+
 ## [0.1.2](https://github.com/8select/serverless-plugin-webpack/tree/0.1.2) (2017-05-09)
 [Full Changelog](https://github.com/8select/serverless-plugin-webpack/compare/0.1.1...0.1.2)
 
